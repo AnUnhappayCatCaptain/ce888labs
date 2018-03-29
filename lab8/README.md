@@ -1,5 +1,8 @@
 # Lab8
 
+## Introduction
+      All the source code and result including every model summary can be found in 'IMDB_TEST.ipynb' file.  
+      
 ## Lab Exercise 1: Adding One More Relu Layer  
 * Training and evaluating result:    
       Test score: 1.1105385148486495  
