@@ -1,0 +1,12 @@
+,0,1,2
+0,train image 1,train image 2,difference true=0
+1,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_17.png,1
+2,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character02/0489_08.png,0
+3,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character02/0489_05.png,0
+4,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character02/0489_16.png,0
+5,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character02/0489_04.png,0
+6,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_03.png,1
+7,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character02/0489_16.png,0
+8,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_13.png,1
+9,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character02/0489_15.png,0
+10,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character01/0488_01.png,/home/mlvm2/ce888labs/ce888_ass/Japanese_(hiragana)/character02/0489_13.png,0
