@@ -1,101 +1,24 @@
 # Lab8
 
+## Introduction
+      All the source code and result including every model summary can be found in 'IMDB_TEST.ipynb' file.  
+      
 ## Lab Exercise 1: Adding One More Relu Layer  
-    * Model summary:  
-    ``_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-input_1 (InputLayer)         (None, 80)                0         
-_________________________________________________________________
-embedding_1 (Embedding)      (None, 80, 128)           2560000   
-_________________________________________________________________
-dense_1 (Dense)              (None, 80, 64)            8256      
-_________________________________________________________________
-flatten_1 (Flatten)          (None, 5120)              0         
-_________________________________________________________________
-dense_2 (Dense)              (None, 1)                 5121      
-_________________________________________________________________
-activation_1 (Activation)    (None, 1)                 0         
-=================================================================
-Total params: 2,573,377
-Trainable params: 2,573,377
-Non-trainable params: 0
-_________________________________________________________________``
-    * Training and evaluating result:
-    ``Test score: 1.1105385148486495  
-    Test accuracy: 0.82084``  
+* Training and evaluating result:    
+      Test score: 1.1105385148486495  
+      Test accuracy: 0.82084  
 
-## Lab Exercise 2: Adding Dropout Layer  
-    * Model summary:  
-    ``_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-input_3 (InputLayer)         (None, 80)                0         
-_________________________________________________________________
-embedding_3 (Embedding)      (None, 80, 128)           2560000   
-_________________________________________________________________
-dense_4 (Dense)              (None, 80, 64)            8256      
-_________________________________________________________________
-dropout_1 (Dropout)          (None, 80, 64)            0         
-_________________________________________________________________
-flatten_2 (Flatten)          (None, 5120)              0         
-_________________________________________________________________
-dense_5 (Dense)              (None, 1)                 5121      
-_________________________________________________________________
-activation_2 (Activation)    (None, 1)                 0         
-=================================================================
-Total params: 2,573,377
-Trainable params: 2,573,377
-Non-trainable params: 0
-_________________________________________________________________``  
-    * Training and evaluating result
-    ``Test score: 1.757807836009562  
-    Test accuracy: 0.80164``  
+## Lab Exercise 2: Adding Dropout Layer   
+* Training and evaluating result:  
+      Test score: 1.757807836009562  
+      Test accuracy: 0.80164 
     
-## Lab Exercise 3: Adding Convolution Layer   
-    * Model summary:  
-    ``_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-input_6 (InputLayer)         (None, 80)                0         
-_________________________________________________________________
-embedding_6 (Embedding)      (None, 80, 128)           2560000   
-_________________________________________________________________
-conv1d_3 (Conv1D)            (None, 80, 32)            20512     
-_________________________________________________________________
-global_max_pooling1d_2 (Glob (None, 32)                0         
-_________________________________________________________________
-dense_6 (Dense)              (None, 1)                 33        
-_________________________________________________________________
-activation_3 (Activation)    (None, 1)                 0         
-=================================================================
-Total params: 2,580,545
-Trainable params: 2,580,545
-Non-trainable params: 0
-_________________________________________________________________``  
-    * Training and evaluating result:
-    ``Test score: 0.8360491146403551  
-    Test accuracy: 0.84008``
+## Lab Exercise 3: Adding Convolution Layer    
+* Training and evaluating result:  
+      Test score: 0.8360491146403551  
+      Test accuracy: 0.84008
 
 ## Lab Exercise 4: Adding LSTM Layer
-    *Model summary:
-    ``_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-input_9 (InputLayer)         (None, 80)                0         
-_________________________________________________________________
-embedding_9 (Embedding)      (None, 80, 128)           2560000   
-_________________________________________________________________
-lstm_3 (LSTM)                (None, 128)               131584    
-_________________________________________________________________
-dense_8 (Dense)              (None, 1)                 129       
-_________________________________________________________________
-activation_5 (Activation)    (None, 1)                 0         
-=================================================================
-Total params: 2,691,713
-Trainable params: 2,691,713
-Non-trainable params: 0
-_________________________________________________________________``  
-    * Traning and evaluating result:
-    ``Test score: 0.9953275058835744  
-    Test accuracy: 0.82136``
+* Traning and evaluating result:  
+      Test score: 0.9953275058835744  
+      Test accuracy: 0.82136
