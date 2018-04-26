@@ -1,18 +1,25 @@
 # ce888 Assignment
 
-## Step 1. Data loading and Splitting (Completed)
+* All the iplemented program could be found in "ce_888_ass_final_submit.ipynb" file. But not including all running results.
 
-* The results (two .txt files including directories of images and differences) of step 1 could be found in th folder.  
+## Step 1. Create dataset (Completed)
 
-* The specific procedure of loading and processing the data is described in .ipynb file.  
-  1. Test dataset will include 10000 data;  
-  2. Train dataset will only include 5 data (as the topic requires data should not be much )  
-  3. In fact, the train data should only be 1.  
+* The results (.csvfile named "Data-all" including directories of images and differences) of step 1 could be found in th folder.  
+
   
-## Step 2. (Wait for editing)  
+## Step 2. Data loading and pre-processing (Compeleted) 
 
-## Step 3. (Wait for editing)  
+* functions are created and the "relative coordinates" would be produced.  
 
-## Step 4. (Wait for editing)  
+## Step 3. TPOT training sys (Compeleted)  
 
-## Step 5. (Wait for editing)  
+* TPOT CLASSIFIER AND TPOT REGRESSOR are both been tested. Regressor are performing better than classifier.  
+
+## Step 4. Evaluation (Compeleted)  
+
+* Based on Brendenlake's code, instead of using scikit learn "metric".
+
+## Final Result
+
+* 4800 samples training has been tested, it could achiive no more than 20% accuracy.  
+* FURTHER TEST AND STUDY SHOULD BE DONE!!!!!!!
